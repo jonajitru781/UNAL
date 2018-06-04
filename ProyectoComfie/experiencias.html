@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>UN Academic</title>
+
+         <!-- Bootstrap CSS CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- Our Custom CSS -->
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    </head>
+    <body>
+
+
+
+        <div class="wrapper">
+            <!-- Sidebar Holder -->
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                    <h3>UN Academic</h3>
+                    <strong>U.A.</strong>
+                </div>
+
+                <ul class="list-unstyled components">
+                    <li>
+                        <a href="index.html">
+                            <i class="glyphicon glyphicon-home"></i>
+                            Inicio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#learnSubmenu" data-toggle="collapse" aria-expanded="false">
+                            <i class="glyphicon glyphicon-blackboard"></i>
+                            ¿Cómo aprender?
+                        </a>
+                        <ul class="collapse list-unstyled" id="learnSubmenu">
+                            <li><a href="#autoSubmenu" data-toggle="collapse" aria-expanded="false">Aprendizaje auto-dirigido</a>
+                            <ul class="collapse list-unstyled" id="autoSubmenu">
+                            <li><a href="experiencias.html">Experiencias de aprendizaje</a></li>
+                            <li><a href="recursos.html">Recursos de aprendizaje</a></li>
+                        </ul></li>
+                            <li><a href="metacognicion.html">Meta-cognición</a></li>
+                        </ul>
+                        <a href="#studySubmenu" data-toggle="collapse" aria-expanded="false">
+                            <i class="glyphicon glyphicon-book"></i>
+                            ¿Cómo estudiar?
+                        </a>
+                        <ul class="collapse list-unstyled" id="studySubmenu">
+                            <li><a href="mestudio.html">Métodos de estudio</a></li>
+                            <li><a href="lectura.html">Comprensión de lectura</a></li>
+                            <li><a href="pausas.html">Pausas activas</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#materiasSubmenu" data-toggle="collapse" aria-expanded="false">
+                            <i class="glyphicon glyphicon-tasks"></i>
+                            Tutorias
+                        </a>
+                        <ul class="collapse list-unstyled" id="materiasSubmenu">
+                            <li><a href="#aSubmenu" data-toggle="collapse" aria-expanded="false">Matemáticas</a></li>
+                            <ul class="collapse list-unstyled" id="aSubmenu">
+                            <li><a href="matebasica.html">Matemáticas Básicas</a></li>
+                            <li><a href="#bSubmenu" data-toggle="collapse" aria-expanded="false">Cálculo</a></li>
+                            <ul class="collapse list-unstyled" id="bSubmenu">
+                            <li><a href="diferencial.html">Cálculo Diferencial</a></li>
+                            <li><a href="integral.html">Cálculo Integral</a></li>
+                        </ul>
+                            
+                        </ul>
+                            <li><a href="#dSubmenu" data-toggle="collapse" aria-expanded="false">Programación</a></li>
+                            <ul class="collapse list-unstyled" id="dSubmenu">
+                            <li><a href="procomputadores.html">Programación de computadores</a></li>
+                            <li><a href="proobjetos.html">Programación orientado a objetos</a></li>
+                        </ul>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="examenes.html">
+                            <i class="glyphicon glyphicon-pencil"></i>
+                            Preparar examenes
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">
+                            <i class="glyphicon glyphicon-send"></i>
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="list-unstyled CTAs">
+                    <li><a href="https://drive.google.com/open?id=1xJaclRf1xzWFpHxou4U2LaHuc99quo5m">Bibliografía</a></li>
+                    <li><a href="http://unal.edu.co/" class="article">Universidad Nacional</a></li>
+                </ul>
+            </nav>
+
+            <!-- Page Content Holder -->
+            <div id="content">
+
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+
+                        <div class="navbar-header">
+                            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                                <i class="glyphicon glyphicon-align-left"></i>
+                                <span>Menú</span>
+                            </button>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <h4>¡Desarrolla tu aprendizaje autónomo con UN Academic!</h4>
+                        </div>
+                    </div>
+
+                </nav>
+                 <center>
+            <h2>Introducción</h2>
+            <article>
+                Bienvenido al mundo del aprendizaje autodirigido, la siguiente información es un extracto y traducción del libro de
+                Malcom Knowles: Self-Directed Leaning: A Guide for Learners and Teachers. El cual es una de las
+                primeras obras sobre este tema y es ideal para introducirse al aprendizaje autodirigido.
+            </article>
+            <h2>Diagnosticar las Necesidades de Aprendizaje</h2>
+            <article>
+                Presumiblemente, desde que estás leyendo este libro te estés dando cuenta de una necesidad
+                general de al menos encontrar algo sobre lo que aprender de forma autónoma. Puedo imaginar
+                que eso es cierto si recientemente has tenido alguna experiencia humillante con algún profesor
+                arrogante o incluso frustrante con un profesor descuidado y desorganizado. O si has entrado en
+                algún programa de estudios no convencional y has encontrado que te han dado más
+                responsabilidad para tu aprendizaje de aquella para la que estás preparado. O si has comenzado a
+                aprender algo por tu cuenta y has caído de bruces. O si has leído algo que es nuevo para ti y
+                simplemente tienes curiosidad y quieres saber de qué trata. La <a class="a" href="#experiencia1">experiencia #1</a> está diseñada
+                para investigar estas necesidades básicas y profundizar en porqué el aprendizaje autodirigido
+                puedes ser importante para ti.<br>El <a class="a" href="recursos.html#recursob">recurso de aprendizaje B</a> te ayudará a hacerlo.
+            </article>
+            <article>
+                Si esta cuestión te intriga, puedes querer ir a la <a class="a" href="#experiencia1">experiencia #1</a> ahora mismo. Si no, déjalo
+                aparcado y acude más tarde si lo encuentras interesante.
+            </article>
+            <article>
+                En cualquier caso, probablemente será útil para ti diagnosticar tus necesidades para aprender
+                de forma autodirigida a un nivel más específico. La <a class="a" href="#experiencia2">experiencia #2</a> presenta una definición de
+                aprendizaje autodirigido y las asumpciones en las que se basa. La <a class="a" href="#experiencia3">experiencia #3</a> presenta una
+                visión de las competencias requeridas para hacerlo, proporcionando un modelo con el que te
+                puedas comparar. Querrás comprobar este modelo para determinar qué aspectos tienen sentido
+                para ti. Entonces creo que encontrarás útil evaluar cuáles de esos aspectos necesitas trabajar, es
+                decir, que competencias tienes que reforzar para que llegues a ser un estudiante autodirigido.
+            </article>
+            <A name="experiencia1" style="color: black"><h2>Experiencia 1: ¿Por qué Aprendizaje Autodirigido?</h2></a>
+            <article>
+                Una razón inmediata es que existe la evidencia de que las personas que toman la iniciativa en
+                su aprendizaje (estudiantes pro-activos) aprenden más cosas y mejor que las personas que se
+                sientan a los pies del profesor de forma pasiva, esperando a ser enseñados (estudiantes
+                reactivos). Los primeros entran en el aprendizaje con más determinación y con una mayor
+                motivación. También tienden a retener y hacer uso de lo que han aprendido mejor y durante un
+                mayor tiempo que los estudiantes reactivos.
+            </article>
+            <article>
+                Un segundo motivo inmediato es que el aprendizaje autodirigido está más en sintonía con
+                nuestro proceso natural de desarrollo psicológico. Cuando nacemos tenemos personalidades
+                completamente dependientes. Necesitamos a nuestros padres para protegernos, alimentarnos,
+                llevarnos y tomar decisiones por nosotros. Pero, a medida que crecemos y maduramos,
+                desarrollamos una necesidad psicológica cada vez más profunda de ser independientes. Primero,
+                del control de los padres, y después, del control de profesores y otros adultos. Un aspecto
+                esencial de esta madurez es desarrollar la habilidad de tener una creciente responsabilidad de
+                nuestras propias vidas (para ser cada vez más autodirigidos).
+            </article>
+            <article>
+                Una tercera razón inmediata es que muchos de los nuevos desarrollos en la educación
+                (nuevos currículum, enseñanza abierta, centros de recursos de aprendizaje, estudio independiente,
+                programas de estudio no tradicionales, programas de titulaciones externas, universidades abiertas
+                y otras) ponen una gran responsabilidad sobre los estudiantes para que lleven la iniciativa en su
+                propio aprendizaje. Los alumnos que entran en estos programas sin haber aprendido las
+                habilidades del aprendizaje autodirigido abordan la experiencia con ansiedad, frustración y,
+                frecuentemente, fracaso; y con ellos sus profesores.
+            </article>
+            <article>
+                Pero también hay una razón a largo plazo por la cual es trágico que no hayamos aprendido a
+                aprender, y es probablemente más importante que todas las razones inmediatas juntas. Alvin
+                Toffler llama a esta razón “shock futuro”.3 Estamos entrando en un extraño nuevo mundo en el
+                cual su única característica estable es el cambio constante. Y esta simple verdad tiene
+                implicaciones radicales para la educación y el aprendizaje.
+            </article>
+            <article>
+                Por sí mismo, implica que ya no es realista definir el propósito de la educación como la
+                transmisión de lo que se conoce. En un mundo en el que la vida media de muchos hechos (y
+                habilidades) es de 10 años o menos, la mitad de lo que una persona ha aprendido cuando tenía 20
+                años puede quedar obsoleto cuando esa misma persona tenga 30. Por eso, el propósito de la
+                educación debe ser desarrollar la habilidad de investigar. Cuando una persona abandona la
+                escuela debe tener no sólo los fundamentos del conocimiento adquirido en el curso de su
+                aprendizaje, sino que también, siendo incluso más importante, debe tener la capacidad de
+                continuar adquiriendo nuevos conocimientos fácil y hábilmente durante el resto de sus vidas.
+            </article>
+            <article>
+            </article>
+            <article>
+                Una segunda implicación es que debe haber algo diferente en la forma de pensar acerca del
+                aprendizaje. Típicamente, pensamos en el aprendizaje cómo aquello que tiene lugar en la escuela
+                (lo que “es enseñado”). Para adecuarnos a nuestro nuevo mundo debemos comenzar a pensar en
+                aprender como lo mismo que vivir. Debemos aprender de todo lo que hacemos; debemos
+                explotar cualquier experiencia como una “experiencia de aprendizaje”. Cualquier institución en
+                nuestra comunidad se convierte en un recurso para aprender, así como cualquier persona a la que
+                tengamos acceso. Aprender significa hacer uso de cualquier recurso, dentro o fuera de las
+                instituciones educativas, para nuestro crecimiento y desarrollo personal.
+            </article>
+            <article>
+                Una tercera implicación es que ya no es adecuado equiparar aprendizaje con juventud. En la
+                civilización de nuestros antepasados, era posible aprender en su juventud casi todo lo que
+                necesitarían a lo largo de su vida. Pero éso ya no es verdad. La educación (o mejor aún, el
+                aprendizaje) debe definirse como un proceso durante toda la vida. El aprendizaje primario
+                durante la juventud debe proporcionarnos las habilidades para investigar y el aprendizaje después
+                de la escolaridad se centra en adquirir el conocimiento, actitudes, compresión, actitudes y valores
+                requeridos para vivir adecuadamente en un mundo en constante cambio.
+            </article>
+            <article>
+                Para resumir: el porqué del aprendizaje autodirigido es la supervivencia. Claramente, no
+                estamos hablando de algo que sería bueno o deseable; ni estamos hablando sobre una moda
+                pasajera en educación. Estamos hablando de una competencia humana básica: la capacidad de
+                aprender por uno mismo, que de repente se ha convertido en un prerrequisito para vivir en el
+                nuevo mundo.
+            </article>
+            <h2><A name="experiencia2" style="color: black;">Experiencia 2: ¿Qué es el Aprendizaje Autodirigido?</a></h2>
+            <article>
+                En su significado más amplio, “aprendizaje autodirigido” describe un proceso por el cual los
+                individuos toman la iniciativa, con o sin la ayuda de otros, en diagnosticar sus necesidades de
+                aprendizaje, formular sus metas de aprendizaje, identificar los recursos humanos y materiales para
+                aprender, elegir e implementar las estrategias de aprendizaje adecuadas y evaluar los resultados de
+                su aprendizaje. Otros nombres que se le han dado en la literatura son “aprendizaje
+                autoplanificado”, “aprendizaje independiente”, “autoeducación”, “autoinstrucción”,
+                “autoenseñanza”, “autoestudio” y “aprendizaje autónomo”. El problema con muchos de estos
+                nombres es que parecen indicar que el aprendizaje se realiza de forma aislada, mientras que el
+                aprendizaje autodirigido normalmente ocurre en asociación con varios tipos de ayudantes, como
+                profesores, tutores, mentores, compañeros y otros recursos humanos. Hay una gran cantidad de
+                colaboración entre un grupo de estudiantes autodirigidos.
+            </article>
+            <h2>Dos Aproximaciones a la educación</h2>
+            <article>
+                Quizá el significado completo de aprendizaje autodirigido pueda clarificarse al compararlo
+                con su opuesto, que se denomina “enseñado” en la <a class="a" href="#experiencia1">experiencia #1.</a> Para hablar de ambos de
+                forma paralela, nos referiremos a este último como “aprendizaje dirigido por el profesor”.
+            </article>
+            <article>
+                Las asumpciones entre estos dos tipos de aprendizaje quedan recogidas en el <a class="a" href="recursos.html#recursoa">recurso de aprendizaje
+                A</a>. Puede resultar útil examinarlo rápidamente ahora y después volver a este punto
+                y continuar la lectura de los párrafos siguientes para cualquier explicación adicional que necesites.
+            </article>
+            <article>
+                El aprendizaje dirigido por el profesor asume que el alumno tiene una personalidad
+                dependiente y que el profesor tiene la responsabilidad de decidir qué y cómo el alumno debe ser
+                enseñado; mientras que el aprendizaje autodirigido asume que las personas crecen en su
+                capacidad (y necesidad) de ser autodirigidos como un componente esencial de su madurez, y se
+                debe alimentar esta capacidad para que se desarrollo tan rápido como sea posible.
+            </article>
+            <article>
+                El aprendizaje dirigido por el profesor asume que la experiencia del alumno tiene menos
+                valor que la del profesor, los escritores de los libros y productores de materiales como recurso de
+                aprendizaje; así que el profesor tiene la responsabilidad de encargarse de que esta experiencia se
+                transmita al estudiante. En aprendizaje autodirigido asume que la experiencia del alumno puede
+                llegar a ser un recurso de aprendizaje de creciente riqueza y que debe aprovecharse junto con los
+                recursos de los expertos.
+            </article>
+            <article>
+                El aprendizaje dirigido por el profesor asume que el alumno está dispuesto a aprender
+                distintas cosas a distintos niveles de madurez, de forma que un conjunto dado de alumnos
+                estarán listos para aprender las mismas cosas en un mismo nivel de madurez. Sin embargo, el
+                aprendizaje autodirigido asume que cada individuo está preparado para aprender cuando lo
+                requieren las tareas que desarrolla en su vida o para arreglárselas lo mejor posible con los
+                problemas que le surgen. Así, cada individuo es un patrón distinto de preparación respecto a los
+                demás.
+            </article>
+            <article>
+                El aprendizaje dirigido por el profesor asume que los alumnos tienen un enfoque orientado a
+                la materia en su aprendizaje (que ven el aprendizaje como la acumulación de contenidos) y por lo
+                tanto las experiencias de aprendizaje deben organizarse de acuerdo a unidades de contenido. El
+                aprendizaje autodirigido asume que su aproximación es el resultado del condicionamiento previo
+                en la escuela. De forma natural, exhibirían un comportamiento orientado a tareas o centrado en
+                problemas y las experiencias de aprendizaje deberían organizarse como la realización de tareas y
+                proyectos de resolución de problemas.
+            </article>
+            <article>
+                El aprendizaje dirigido por el profesor asume que la motivación de los alumnos responde a
+                recompensas y castigos externos. El aprendizaje autodirigido asume que los estudiantes se
+                motivan mediante iniciativas internas, como la necesidad de estima (especialmente autoestima), el
+                deseo de alcanzar algo, la urgencia de crecer, la satisfacción de haber cumplido, la necesidad de
+                conocer algo concreto y la curiosidad.
+            </article>
+            <article>
+                Como puedes ver en las distintas asumpciones, puedes encontrar que ambos tipos son
+                ciertas: ni todo el aprendizaje dirigido por el profesor es malo ni todo el aprendizaje autodirigido
+                es bueno. No hay duda de que hay situaciones de aprendizaje en las cuales necesitamos
+                dependencia, otras en las cuales nuestra experiencia es realmente de poca ayuda, algunas en las
+                que la disposición para aprender está determinada por nuestro nivel de madurez, hay las que se
+                centran en acumular conceptos y están las que nos motivan presiones externas. Quizá lo que
+                diferencia la pedagogía de la educación superior sea la actitud de los alumnos. Si el
+                aprendizaje autodirigido reconoce que hay ocasiones en las que se necesita ser enseñado,
+                deberíamos incluir aquellas situaciones dirigidas por el profesor y explotarlas como recursos
+                para aprender sin perder por ello su “autodireccionamiento”.
+            </article>
+            <h2><A name="experiencia3" style="color: black;">Experiencia 3: Competencias necesarias para el aprendizaje autodirigido</a></h2>
+            <article>
+                Las competencias requeridas para destacar en el aprendizaje dirigido por el profesor incluyen
+                la capacidad de escuchar con atención, tomar nota cuidadosamente, leer con rapidez y con buena
+                compresión y predecir las preguntas de los exámenes y empollar para ellas. Esto puede parecer
+                una caricatura de las competencias del aprendizaje dirigido por el profesor, pero, ¿no son éstas
+                realmente con las que contábamos en la escuela?
+            </article>
+            <article>
+                El aprendizaje autodirigido, sin embargo, requiere un conjunto muy distinto de
+                competencias. En el <a class="a" href="recursos.html#recursob">recurso de aprendizaje B</a> puedes encontrar una lista con las
+                competencias generales y más importantes.
+            </article>
+            <article>
+                Puedes encontrar útil acudir ahora al <a class="a" href="recursos.html#recursob">recurso de aprendizaje B</a> y comprobar el grado en
+                el que posees cada una de esas competencias. Luego compara tu puntuación con un grupo de 2 ó
+                3 compañeros y con un profesor para ayudarte a comprobar si tus medidas son realistas.
+            </article>
+            <h2><A name="experiencia4" style="color: black;">Experiencia 4: Diseñar un plan de aprendizaje</a></h2>
+            <article>
+                Hay una gran variedad de caminos para diseñar un plan para aprender. Quizá el más simple
+                sea seguir los pasos del método científico:<p>
+                <ol>
+                <li value="1"> ¿Cuál es la cuestión a la que tengo que responder?</li>
+                <li value="2"> ¿Qué datos necesito para responder esta cuestión?</li>
+                <li value="3"> ¿Cuáles son las fuentes más apropiadas y exactas para esos datos?</li>
+                <li value="4"> ¿Cuáles son los medios más eficientes y efectivos que puedo emplear paraobtener los datos de esas fuentes?</li>
+                <li value="5"> Cómo debe organizar y analizar los datos para dar respuesta a mi pregunta?</li>
+                <li value="6"> ¿Cómo debo documentar mi respuesta y comprobar su validez?.</li>
+                </ol>
+            </article>
+            <article>
+                Pero quiero sugerir algo un poco más elaborado y con un formato más riguroso: un
+                CONTRATO DE APRENDIZAJE. Mis alumnos indican que el contrato les ayuda a organizar su
+                aprendizaje de una forma más eficaz, les induce a ser más creativo para identificar los recursos de
+                aprendizaje y desarrollar estrategias de aprendizaje, y les fuerza a obtener una evidencia mejor de
+                su cumplimiento. Los contratos de aprendizaje pueden emplearse en cualquier área.
+            </article>
+            <h2>Contratos de Aprendizaje</h2>
+            <article>
+                Un contrato suele definirse como “un acuerdo que obliga a dos o más personas o partes”, y
+                de hecho cada vez es más común que los profesores realicen contratos con sus alumnos para los
+                trabajos de sus cursos, y para instituciones de estudios no tradicionales, que realizan un contrato
+                con los estudiantes para especificar que deben conseguir para ganar un grado en particular.
+            </article>
+            <article>
+                Aquí tienes algunas sugerencias para construir tu contrato de aprendizaje:<p>
+                <ol type="I">    
+                <li value="1"> Pasa al <a class="a" href="recursos.html#recursoc">recurso de aprendizaje C</a> y reproduce en tres o cuatro hojas las
+                cuatro columnas del contrato:
+                    <ol type="i">
+                        <li value="1"> Objetivos de aprendizaje;</li>
+                        <li value="2"> Recursos y estrategias de aprendizaje;</li>
+                        <li value="3"> Evidencia de cumplimiento;</li>
+                        <li value="4"> Criterios y Métodos de Validación.</li>
+                    </ol>    
+                </li>
+                <li value="2"> Examina la columna 1 del contrato de ejemplo en el <a class="a" href="recursos.html#recursoc">recurso de aprendizaje
+                C</a> y, sobre las bases que has establecido en la <a class="a" href="#experiencia3">experiencia #3</a>, escribe en la
+                columna 1 de tu contrato cualquier objetivo que creas que te pueda ser útil para
+                continuar tu trabajo. </li>
+                <li value="3"> Pasa a la columna 2 de tu contrato y, para cada uno de los objetivos que has
+                establecido, identifica uno o más recursos y estrategias de aprendizaje que
+                pienses que te pueden ayudar a cumplir el objetivo. Los recursos de aprendizaje
+                <a class="a" href="recursos.html#recursoj">J</a> y <a class="a" href="recursos.html#recursok">K</a> describen algunas estrategias de aprendizaje que son
+                relevantes para varios tipos de objetivos; y puedes pensar en otras.</li>
+                <li value="4"> Ahora estás listo para la columna 3, en la que debes indicar, para cada objetivo,
+                qué evidencia vas a recoger para medir en qué grado has alcanzado el objetivo
+                que te habías propuesto. Los recursos de aprendizaje <a class="a" href="recursos.html#recursoc">C</a> y <a class="a" href="recursos.html#recurson">N</a> te darán
+                algunas ideas sobre qué tipo de evidencias son adecuadas para los distintos
+                objetivos. También puedes pensar en otras clases de evidencias que tengan
+                sentido para ti.</li>
+                <li value="5"> La columna 4 proporciona espacio para que indiques qué criterio vas a seguir
+                para juzgar las evidencias, y qué método vas a usar para convencerte a ti mismo
+                de la validez de la evidencia. <a class="a" href="recursos.html#recursoo">el recurso de aprendizaje O</a> te sugiere ideas
+                para esta etapa. Probablemente se trate de la parte más difícil de todo el proceso,
+                de modo que no trates de ser demasiado ambicioso para ser “científico”. Lo
+                importante es que tengas alguna experiencia ponderando la evidencia de aquello
+                que has aprendido y juzgando cómo es de convincente para ti.</li>
+                <li value="6"> En este punto, encontrarás de utilidad comprobar tu contrato de aprendizaje
+                con un profesor o un grupo de compañeros. Puedes hacerles preguntas como:
+                <ul>
+                <li>¿Los objetivos son claros y realistas?
+                <li>¿Se te ocurre algún otro que pueda considerar?
+                <li>¿Las actividades son razonables, apropiadas y eficaces para aprender lo que se
+                desea?
+                <li>¿Piensas que se debería incluir alguna más?
+                <li>¿Es relevante la evidencia para los distintos objetivos?
+                <li>¿Puedes sugerir alguna otra evidencia?
+                </ul>    
+                El criterio y los métodos para evaluar la evidencia,
+                <ul>
+                <li>¿son claros, relevantes y convincentes?
+                <li>¿Qué otras evidencias sugerirías?
+                </ul>
+                </li>
+                <li value="7"> De las respuestas que has obtenido de las consultas anteriores, quizás quieras
+                modificar tu contrato.
+                </ol>
+            </article>
+            <article>
+                Ahora ya estás preparado para introducirte en las estrategias de aprendizaje que has establecido en tu contrato.
+                <p  style="font: oblique;font-style: italic; text-align: center;">Que tengas una experiencia reconfortante.</p>
+            </article>
+			</center>
+            </div>
+            </div>
+
+        <!-- jQuery CDN -->
+         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+         <!-- Bootstrap Js CDN -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+         <script type="text/javascript">
+             $(document).ready(function () {
+                 $('#sidebarCollapse').on('click', function () {
+                     $('#sidebar').toggleClass('active');
+                 });
+             });
+         </script>
+    </body>
+</html>

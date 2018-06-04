@@ -1,0 +1,42 @@
+a.a{       
+    font-style: italic;
+	text-decoration: underline;
+	
+}
+ul{
+    list-style-type: disc;
+}
+ol{
+    list-style-type: I;
+}
+li, article{
+	font-size: 16px;
+    text-align: left; 
+}
+table, th, td {
+   border: 2px solid cadetblue;
+   
+}
+th{
+    background: cornflowerblue;
+    text-align: center;
+}
+td{
+    background: aliceblue;
+}
+td.a{
+    border: none;
+    background: aliceblue;
+}
+article{
+    background: white; 
+    border-radius: 0.5em;
+    color: black;
+    font-family: sans-serif, Helvetica, Verdana;
+    font-size: 1.0em;
+    margin: 0.5em auto;
+    max-width: 960px;
+    padding: 0.25em;
+}
+
+
