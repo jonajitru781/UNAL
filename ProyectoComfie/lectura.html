@@ -1,36 +1,131 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML>
-<HEAD>
-	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
-	<TITLE></TITLE>
-	<META NAME="GENERATOR" CONTENT="LibreOffice 4.1.6.2 (Linux)">
-	<META NAME="AUTHOR" CONTENT="Lenovo">
-	<META NAME="CREATED" CONTENT="20180602;212400000000000">
-	<META NAME="CHANGEDBY" CONTENT="Lenovo">
-	<META NAME="CHANGED" CONTENT="20180603;135900000000000">
-	<META NAME="AppVersion" CONTENT="15.0000">
-	<META NAME="DocSecurity" CONTENT="0">
-	<META NAME="HyperlinksChanged" CONTENT="false">
-	<META NAME="LinksUpToDate" CONTENT="false">
-	<META NAME="ScaleCrop" CONTENT="false">
-	<META NAME="ShareDoc" CONTENT="false">
-	<STYLE TYPE="text/css">
-	<!--
-		@page { size: 8.5in 11in; margin-left: 1.18in; margin-right: 1.18in; margin-top: 0.98in; margin-bottom: 0.98in }
-		P { margin-bottom: 0.08in; direction: ltr; widows: 2; orphans: 2 }
-	-->
-	</STYLE>
-</HEAD>
-<BODY LANG="es-CO" DIR="LTR">
-<P STYLE="margin-bottom: 0.11in">Lectura de textos grandes:</P>
-<P STYLE="margin-bottom: 0.11in">Al iniciar la Universidad, como
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>UN Academic</title>
+
+         <!-- Bootstrap CSS CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- Our Custom CSS -->
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    </head>
+    <body>
+
+
+
+        <div class="wrapper">
+            <!-- Sidebar Holder -->
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                    <h3>UN Academic</h3>
+                    <strong>U.A.</strong>
+                </div>
+
+                <ul class="list-unstyled components">
+                    <li>
+                        <a href="index.html">
+                            <i class="glyphicon glyphicon-home"></i>
+                            Inicio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#learnSubmenu" data-toggle="collapse" aria-expanded="false">
+                            <i class="glyphicon glyphicon-blackboard"></i>
+                            ¿Cómo aprender?
+                        </a>
+                        <ul class="collapse list-unstyled" id="learnSubmenu">
+                            <li><a href="#autoSubmenu" data-toggle="collapse" aria-expanded="false">Aprendizaje auto-dirigido</a>
+                            <ul class="collapse list-unstyled" id="autoSubmenu">
+                            <li><a href="experiencias.html">Experiencias de aprendizaje</a></li>
+                            <li><a href="recursos.html">Recursos de aprendizaje</a></li>
+                        </ul></li>
+                            <li><a href="metacognicion.html">Meta-cognición</a></li>
+                        </ul>
+                        <a href="#studySubmenu" data-toggle="collapse" aria-expanded="false">
+                            <i class="glyphicon glyphicon-book"></i>
+                            ¿Cómo estudiar?
+                        </a>
+                        <ul class="collapse list-unstyled" id="studySubmenu">
+                            <li><a href="mestudio.html">Métodos de estudio</a></li>
+                            <li><a href="lectura.html">Comprensión de lectura</a></li>
+                            <li><a href="pausas.html">Pausas activas</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#materiasSubmenu" data-toggle="collapse" aria-expanded="false">
+                            <i class="glyphicon glyphicon-tasks"></i>
+                            Tutorias
+                        </a>
+                        <ul class="collapse list-unstyled" id="materiasSubmenu">
+                            <li><a href="#aSubmenu" data-toggle="collapse" aria-expanded="false">Matemáticas</a></li>
+                            <ul class="collapse list-unstyled" id="aSubmenu">
+                            <li><a href="matebasica.html">Matemáticas Básicas</a></li>
+                            <li><a href="#bSubmenu" data-toggle="collapse" aria-expanded="false">Cálculo</a></li>
+                            <ul class="collapse list-unstyled" id="bSubmenu">
+                            <li><a href="diferencial.html">Cálculo Diferencial</a></li>
+                            <li><a href="integral.html">Cálculo Integral</a></li>
+                        </ul>
+                            
+                        </ul>
+                            <li><a href="#dSubmenu" data-toggle="collapse" aria-expanded="false">Programación</a></li>
+                            <ul class="collapse list-unstyled" id="dSubmenu">
+                            <li><a href="procomputadores.html">Programación de computadores</a></li>
+                            <li><a href="proobjetos.html">Programación orientado a objetos</a></li>
+                        </ul>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="examenes.html">
+                            <i class="glyphicon glyphicon-pencil"></i>
+                            Preparar examenes
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">
+                            <i class="glyphicon glyphicon-send"></i>
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="list-unstyled CTAs">
+                    <li><a href="https://drive.google.com/open?id=1xJaclRf1xzWFpHxou4U2LaHuc99quo5m">Bibliografía</a></li>
+                    <li><a href="http://unal.edu.co/" class="article">Universidad Nacional</a></li>
+                </ul>
+            </nav>
+
+            <!-- Page Content Holder -->
+            <div id="content">
+
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+
+                        <div class="navbar-header">
+                            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                                <i class="glyphicon glyphicon-align-left"></i>
+                                <span>Menú</span>
+                            </button>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <h4>¡Desarrolla tu aprendizaje autónomo con UN Academic!</h4>
+                        </div>
+                    </div>
+
+                </nav>
+                 <h2>Lectura de textos grandes</h2>
+                <p>Al iniciar la Universidad, como
 estudiante, y dependiendo de tu Carrera, te vas a encontrar con
 diferentes lecturas propuestas por tus maestros para facilitar tu
 aprendizaje, dependiendo de tu carrera, (especialmente si estudias
 áreas de humanidades como filosofía o derecho) podrás encontrarte
 con algunos libros bastante… intimidantes, en esta guía tenemos
 varias recomendaciones que esperamos te ayuden a lo largo de este
-proceso:</P>
+proceso:</p>
 <OL>
 	<LI><P STYLE="margin-bottom: 0.11in">Primero lo primero, iniciar:
 	cuando nuestro profesor nos presenta un libro con suficientes
@@ -76,6 +171,21 @@ proceso:</P>
 	logramos retener nada de lo que estamos leyendo, en estas
 	situaciones es necesario tomarnos un descanso y tomar algo o
 	airearnos para poder retomar nuestra lectura.</P>
-</OL>
-</BODY>
-</HTML>
+</OL>
+            </div>
+            </div>
+
+        <!-- jQuery CDN -->
+         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+         <!-- Bootstrap Js CDN -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+         <script type="text/javascript">
+             $(document).ready(function () {
+                 $('#sidebarCollapse').on('click', function () {
+                     $('#sidebar').toggleClass('active');
+                 });
+             });
+         </script>
+    </body>
+</html>
