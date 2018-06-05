@@ -1,54 +1,168 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML>
-<HEAD>
-	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
-	<TITLE></TITLE>
-	<META NAME="GENERATOR" CONTENT="LibreOffice 4.1.6.2 (Linux)">
-	<META NAME="AUTHOR" CONTENT="Lenovo">
-	<META NAME="CREATED" CONTENT="20180603;141000000000000">
-	<META NAME="CHANGEDBY" CONTENT="Lenovo">
-	<META NAME="CHANGED" CONTENT="20180604;231900000000000">
-	<META NAME="AppVersion" CONTENT="15.0000">
-	<META NAME="DocSecurity" CONTENT="0">
-	<META NAME="HyperlinksChanged" CONTENT="false">
-	<META NAME="LinksUpToDate" CONTENT="false">
-	<META NAME="ScaleCrop" CONTENT="false">
-	<META NAME="ShareDoc" CONTENT="false">
-	<STYLE TYPE="text/css">
-	<!--
-		@page { size: 8.5in 11in; margin-left: 1.18in; margin-right: 1.18in; margin-top: 0.98in; margin-bottom: 0.98in }
-		P { margin-bottom: 0.08in; direction: ltr; widows: 2; orphans: 2 }
-	-->
-	</STYLE>
-</HEAD>
-<BODY LANG="es-CO" DIR="LTR">
-<P STYLE="margin-bottom: 0.11in"><A NAME="_GoBack"></A><FONT COLOR="#333333"><FONT FACE="Calibri Light, serif"><SPAN STYLE="background: #ffffff">Desde
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>UN Academic</title>
+
+         <!-- Bootstrap CSS CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- Our Custom CSS -->
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    </head>
+    <body>
+
+
+
+        <div class="wrapper">
+            <!-- Sidebar Holder -->
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                    <h3>UN Academic</h3>
+                    <strong>U.A.</strong>
+                </div>
+
+                <ul class="list-unstyled components">
+                    <li>
+                        <a href="index.html">
+                            <i class="glyphicon glyphicon-home"></i>
+                            Inicio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#learnSubmenu" data-toggle="collapse" aria-expanded="false">
+                            <i class="glyphicon glyphicon-blackboard"></i>
+                            ¿Cómo aprender?
+                        </a>
+                        <ul class="collapse list-unstyled" id="learnSubmenu">
+                            <li><a href="#autoSubmenu" data-toggle="collapse" aria-expanded="false">Aprendizaje auto-dirigido</a>
+                            <ul class="collapse list-unstyled" id="autoSubmenu">
+                            <li><a href="experiencias.html">Experiencias de aprendizaje</a></li>
+                            <li><a href="recursos.html">Recursos de aprendizaje</a></li>
+                        </ul></li>
+                            <li><a href="metacognicion.html">Meta-cognición</a></li>
+                        </ul>
+                        <a href="#studySubmenu" data-toggle="collapse" aria-expanded="false">
+                            <i class="glyphicon glyphicon-book"></i>
+                            ¿Cómo estudiar?
+                        </a>
+                        <ul class="collapse list-unstyled" id="studySubmenu">
+                            <li><a href="mestudio.html">Métodos de estudio</a></li>
+                            <li><a href="lectura.html">Comprensión de lectura</a></li>
+                            <li><a href="pausas.html">Pausas activas</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#materiasSubmenu" data-toggle="collapse" aria-expanded="false">
+                            <i class="glyphicon glyphicon-tasks"></i>
+                            Tutorias
+                        </a>
+                        <ul class="collapse list-unstyled" id="materiasSubmenu">
+                            <li><a href="#aSubmenu" data-toggle="collapse" aria-expanded="false">Matemáticas</a></li>
+                            <ul class="collapse list-unstyled" id="aSubmenu">
+                            <li><a href="matebasica.html">Matemáticas Básicas</a></li>
+                            <li><a href="#bSubmenu" data-toggle="collapse" aria-expanded="false">Cálculo</a></li>
+                            <ul class="collapse list-unstyled" id="bSubmenu">
+                            <li><a href="diferencial.html">Cálculo Diferencial</a></li>
+                            <li><a href="integral.html">Cálculo Integral</a></li>
+                        </ul>
+                            
+                        </ul>
+                            <li><a href="#dSubmenu" data-toggle="collapse" aria-expanded="false">Programación</a></li>
+                            <ul class="collapse list-unstyled" id="dSubmenu">
+                            <li><a href="procomputadores.html">Programación de computadores</a></li>
+                            <li><a href="proobjetos.html">Programación orientado a objetos</a></li>
+                        </ul>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="examenes.html">
+                            <i class="glyphicon glyphicon-pencil"></i>
+                            Preparar examenes
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">
+                            <i class="glyphicon glyphicon-send"></i>
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="list-unstyled CTAs">
+                    <li><a href="https://drive.google.com/open?id=1xJaclRf1xzWFpHxou4U2LaHuc99quo5m">Bibliografía</a></li>
+                    <li><a href="http://unal.edu.co/" class="article">Universidad Nacional</a></li>
+                </ul>
+            </nav>
+
+            <!-- Page Content Holder -->
+            <div id="content">
+
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+
+                        <div class="navbar-header">
+                            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                                <i class="glyphicon glyphicon-align-left"></i>
+                                <span>Menú</span>
+                            </button>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <h4>Pausas Activas</h4>
+                        </div>
+                    </div>
+
+                </nav>
+<p>Desde
 1950, el ámbito laboral ha sido reconocido como un espacio adecuado
 para la promoción de la salud y luego, en 1995 esto fue ratificado
 por la Organización Mundial de la Salud, OMS y la Organización
 Internacional del Trabajo OIT. De hecho, en nuestro país la Ley de
 Obesidad (Ley 1355 de 2009) hizo obligatoria la necesidad de
 reglamentar mecanismos para que todas las empresas promuevan durante
-la jornada laboral pausas activas para todos los empleados.&nbsp;</SPAN></FONT></FONT><FONT COLOR="#333333"><FONT FACE="Calibri Light, serif"><BR><BR></FONT></FONT><FONT COLOR="#333333"><FONT FACE="Calibri Light, serif"><SPAN STYLE="background: #ffffff">Las
-pausas activas han sido una de las principales herramientas de la
+la jornada laboral pausas activas para todos los empleados.</p>
+<p> Las pausas activas han sido una de las principales herramientas de la
 salud ocupacional para promover actividad física enfocada a mejorar
 movilidad articular, realizar estiramientos y ejercicios que
 propicien cambios de posición y disminución de cargas
 osteomusculares por mantenimiento de posiciones prolongadas y/o
-movimientos repetitivos durante la jornada laboral.&nbsp;</SPAN></FONT></FONT><FONT COLOR="#333333"><FONT FACE="Calibri Light, serif"><BR><BR></FONT></FONT><FONT COLOR="#333333"><FONT FACE="Calibri Light, serif"><SPAN STYLE="background: #ffffff">De
+movimientos repetitivos durante la jornada laboral.</p><p>De
 acuerdo con los especialistas de Expo-Vida Sana 2013: el primer
 festival de &quot;hábitos saludables&quot; en Bogotá, éstas son
-las 10 razones para realizar pausas activas durante su jornada:</SPAN></FONT></FONT><FONT COLOR="#333333"><FONT FACE="Calibri Light, serif"><BR><BR><BR></FONT></FONT><FONT COLOR="#333333"><FONT FACE="Calibri Light, serif"><SPAN STYLE="background: #ffffff">1.
-Disminuye el estrés.</SPAN></FONT></FONT><FONT COLOR="#333333"><FONT FACE="Calibri Light, serif"><BR><BR></FONT></FONT><FONT COLOR="#333333"><FONT FACE="Calibri Light, serif"><SPAN STYLE="background: #ffffff">2.
-Favorece el cambio de posturas y rutina.</SPAN></FONT></FONT><FONT COLOR="#333333"><FONT FACE="Calibri Light, serif"><BR><BR></FONT></FONT><FONT COLOR="#333333"><FONT FACE="Calibri Light, serif"><SPAN STYLE="background: #ffffff">3.
-Libera tensión articular y muscular.</SPAN></FONT></FONT><FONT COLOR="#333333"><FONT FACE="Calibri Light, serif"><BR><BR></FONT></FONT><FONT COLOR="#333333"><FONT FACE="Calibri Light, serif"><SPAN STYLE="background: #ffffff">4.
-Estimula y favorece la circulación.</SPAN></FONT></FONT><FONT COLOR="#333333"><FONT FACE="Calibri Light, serif"><BR><BR></FONT></FONT><FONT COLOR="#333333"><FONT FACE="Calibri Light, serif"><SPAN STYLE="background: #ffffff">5.
-Mejora la postura.</SPAN></FONT></FONT><FONT COLOR="#333333"><FONT FACE="Calibri Light, serif"><BR><BR></FONT></FONT><FONT COLOR="#333333"><FONT FACE="Calibri Light, serif"><SPAN STYLE="background: #ffffff">6.
-Favorece la autoestima y capacidad de concentración.</SPAN></FONT></FONT><FONT COLOR="#333333"><FONT FACE="Calibri Light, serif"><BR><BR></FONT></FONT><FONT COLOR="#333333"><FONT FACE="Calibri Light, serif"><SPAN STYLE="background: #ffffff">7.
-Motiva y mejora las relaciones interpersonales, promueve la
-integración social.</SPAN></FONT></FONT><FONT COLOR="#333333"><FONT FACE="Calibri Light, serif"><BR><BR></FONT></FONT><FONT COLOR="#333333"><FONT FACE="Calibri Light, serif"><SPAN STYLE="background: #ffffff">8.
-Disminuye riesgo de enfermedad profesional.</SPAN></FONT></FONT><FONT COLOR="#333333"><FONT FACE="Calibri Light, serif"><BR><BR></FONT></FONT><FONT COLOR="#333333"><FONT FACE="Calibri Light, serif"><SPAN STYLE="background: #ffffff">9.
-Promueve el surgimiento de nuevos líderes.</SPAN></FONT></FONT><FONT COLOR="#333333"><FONT FACE="Calibri Light, serif"><BR><BR></FONT></FONT><FONT COLOR="#333333"><FONT FACE="Calibri Light, serif"><SPAN STYLE="background: #ffffff">10.
-Mejora el desempeño laboral.</SPAN></FONT></FONT></P>
-</BODY>
-</HTML>
+las 10 razones para realizar pausas activas durante su jornada:</p>
+<ol>
+<li>Disminuye el estrés.</li>
+<li>Favorece el cambio de posturas y rutina.</li> 
+<li>Libera tensión articular y muscular.</li>
+<li>Estimula y favorece la circulación.</li>
+
+<li>Mejora la postura.</li> 
+
+<li>Favorece la autoestima y capacidad de concentración.</li> 
+
+<li>Motiva y mejora las relaciones interpersonales, promueve la integración social.</li>
+<li>Disminuye riesgo de enfermedad profesional.</li>
+<li>Promueve el surgimiento de nuevos líderes.</li>
+	<li>Mejora el desempeño laboral.</li>	
+</ol>
+            </div>
+            </div>
+
+        <!-- jQuery CDN -->
+         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+         <!-- Bootstrap Js CDN -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+         <script type="text/javascript">
+             $(document).ready(function () {
+                 $('#sidebarCollapse').on('click', function () {
+                     $('#sidebar').toggleClass('active');
+                 });
+             });
+         </script>
+    </body>
+</html>
